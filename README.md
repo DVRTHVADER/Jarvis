@@ -22,16 +22,6 @@ pip install -r requirements.txt
 
 ### 2. Set your OpenAI API key
 
-```bash
-# macOS/Linux
-export OPENAI_API_KEY="sk-proj-your-key-here"
-
-# Windows (cmd)
-set OPENAI_API_KEY=sk-proj-your-key-here
-```
-
-Or edit `app.py` and replace `"YOUR_API_KEY_HERE"` directly (not recommended for production).
-
 ### 3. Run the server
 
 ```bash
@@ -40,21 +30,12 @@ python app.py
 
 ### 4. Open the app
 
-Visit [http://localhost:5000](http://localhost:5000) in your browser.
 
----
 
 ## Features
 
 | Feature | Description |
-|---|---|
-| 💬 Text input | Type and send messages to JARVIS |
-| 🎤 Voice input | Click the MIC button or the Arc Reactor to record |
-| 🔊 TTS audio | JARVIS replies with OpenAI's deep "onyx" voice |
-| 🔄 Session reset | Clear conversation memory with one click |
-| 🧠 Persistent context | Full conversation history sent each turn |
-| 🎨 HUD UI | Cinematic Iron Man-style interface |
-
+|
 ---
 
 ## Project Structure
